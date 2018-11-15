@@ -116,7 +116,7 @@ public class App {
         }
         Collections.sort(plantableAreas);  //sorys all the good fields and puts them from smallest to largest.
         for (Integer plantedArea : plantableAreas) {
-            System.out.print(plantedArea + " ");
+             io.print(plantedArea + " ");
         }
     }
 
