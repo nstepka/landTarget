@@ -28,7 +28,7 @@ public class App {
         io.print("Please enter the barren land area in this format ");
         String input = io.readString("{48 192 351 207}, {48 392 351 407}, {120 52 135 547}, {260 52 275 547}");
         try {
-            input = input.replace("{", "").replace("}", "")
+            input = input.replace("{", "").replace("}", "");
             List<String> cordinates = Arrays.asList(input.split(","));  //splits all the locations at the ,
             for (String cordinate : cordinates) {
                 cordinate = cordinate.trim(); //gets rid of the spaces on the sides at 
